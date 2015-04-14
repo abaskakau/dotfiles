@@ -1,0 +1,86 @@
+#!/bin/sh
+
+DrawBar ()
+{
+  . panel_colors
+  
+#  if [[ -n $KPID ]]; then  
+#    kill -9 $KPID
+#  fi
+  killall panel_bar
+  if [[ -n `xrandr -q | grep "CRT1 connected"` ]]; then
+    Delta=1280
+  else
+    Delta=0
+  fi
+
+  PANEL_HEIGHT="17"
+  FONT_FAMILY='-*-lemon-*-*-*-*-*-*-*-*-*-*-*-*'
+  cat "$PANEL_FIFO" | panel_bar | bar -g 1366x$PANEL_HEIGHT+$Delta -f "$FONT_FAMILY" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" &
+#  KPID=`ps -e | grep panel_bar | awk -F" " '{ print $1; }'`
+    bspc monitor -r I II III IV V VI VII VIII IX X
+  if [[ $Delta -eq 1280 ]]; then
+    hsetroot -full ~/archlinux2.png
+    bspc monitor LVDS -d I II III IV V
+    bspc monitor CRT1 -d VI VII VIII IX X
+    bspc config -m CRT1 border_width 0
+    bspc config -m CRT1 window_gap 0
+  else
+    hsetroot -center ~/archlinux1.png
+    bspc monitor LVDS -d I II III IV V VI VII VIII IX X
+  fi 
+    bspc config -m LVDS window_gap 12
+    bspc config -m LVDS border_width 0
+}
+
+if [ $(pgrep -cx panel) -gt 1 ] ; then
+  printf "%s\n" "The panel is already running." >&2
+  exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+LastMon=0
+NewMon=0
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+bspc config top_padding $PANEL_HEIGHT
+
+bspc control --subscribe > "$PANEL_FIFO" &
+while true; do
+  if [[ -n `xrandr -q | grep "CRT1 connected"` ]]; then
+    NewMon=1
+  else
+    NewMon=0
+  fi
+  if [[ $NewMon -ne $LastMon && $NewMon -eq 1 ]]; then
+    disper -e -t left
+    DrawBar
+    LastMon=$NewMon
+  elif [[ $NewMon -ne $LastMon && $NewMon -eq 0 ]]; then
+    disper -s
+    DrawBar
+    LastMon=$NewMon
+  fi
+ # printf "%s\n" $LastMon >&2
+ # printf "%s\n" $NewMon >&2
+  echo "S$(date "+%b %d, %I:%M %p")"
+  echo "L$(panel_layout)"
+  echo "I$(panel_wifi)"
+  echo "C$(panel_charge)"
+  if [[ -e `which ncmpcpp` && -n `ps -e |grep -w mpd` ]]; then
+    echo "M$(ncmpcpp --now-playing | sed "s/(.*) //")"
+  else
+    echo "M"
+  fi
+  sleep 0.5;
+done > "$PANEL_FIFO" &
+# xtitle -sf 'T%s' > "$PANEL_FIFO" &
+# clock -sf 'S%a %H:%M' > "$PANEL_FIFO" &
+disper -s
+DrawBar
+
+wait
+

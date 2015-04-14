@@ -1,0 +1,651 @@
+2014-08-20T11:07:39+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T11:07:39+0000 starting mpdscribble (mdc 0.22)
+2014-08-20T11:07:39+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-20T11:07:40+0000 new song detected (:B:N: - Zyvie rock'n'roll!), id: 1, pos: 0
+2014-08-20T11:07:41+0000 [last.fm] handshake failed, username or password incorrect (BADAUTH)
+2014-08-20T11:07:41+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-20T11:08:42+0000 [last.fm] handshake failed, username or password incorrect (BADAUTH)
+2014-08-20T11:08:42+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-20T11:08:58+0000 shutting down
+2014-08-20T11:11:11+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T11:11:11+0000 starting mpdscribble (mdc 0.22)
+2014-08-20T11:11:11+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-20T11:11:12+0000 new song detected (:B:N: - Zyvie rock'n'roll!), id: 1, pos: 0
+2014-08-20T11:11:13+0000 [last.fm] handshake failed, username or password incorrect (BADAUTH)
+2014-08-20T11:11:13+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-20T11:12:13+0000 [last.fm] handshake failed, username or password incorrect (BADAUTH)
+2014-08-20T11:12:13+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-20T11:12:17+0000 shutting down
+2014-08-20T11:12:28+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T11:12:28+0000 starting mpdscribble (mdc 0.22)
+2014-08-20T11:12:28+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-20T11:12:29+0000 [last.fm] handshake failed, username or password incorrect (BADAUTH)
+2014-08-20T11:12:29+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-20T11:12:35+0000 new song detected (:B:N: - Ciahnik), id: 2, pos: 1
+2014-08-20T11:13:00+0000 new song detected with tags missing (Lossy/BN/Zhitse Mae.mp3)
+2014-08-20T11:13:10+0000 shutting down
+2014-08-20T11:16:28+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T11:16:28+0000 starting mpdscribble (mdc 0.22)
+2014-08-20T11:16:28+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-20T11:16:29+0000 new song detected (:B:N: - Âîñü òàêóþ á...), id: 4, pos: 3
+2014-08-20T11:16:30+0000 [last.fm] handshake successful
+2014-08-20T11:16:30+0000 [last.fm] sending 'now playing' notification
+2014-08-20T11:16:30+0000 [last.fm] OK
+2014-08-20T11:17:04+0000 shutting down
+2014-08-20T11:17:14+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T11:17:14+0000 starting mpdscribble (mdc 0.22)
+2014-08-20T11:17:14+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-20T11:17:15+0000 new song detected (:B:N: - Âîñü òàêóþ á...), id: 4, pos: 3
+2014-08-20T11:17:16+0000 [last.fm] handshake successful
+2014-08-20T11:17:16+0000 [last.fm] sending 'now playing' notification
+2014-08-20T11:17:16+0000 [last.fm] OK
+2014-08-20T11:20:39+0000 1408533639, songchange: :B:N: - Âîñü òàêóþ á... (292)
+2014-08-20T11:20:39+0000 new song detected (:B:N: - Øòî çà¢òðà), id: 5, pos: 4
+2014-08-20T11:20:40+0000 [last.fm] submitting 1 song
+2014-08-20T11:20:40+0000 [last.fm] OK
+2014-08-20T11:20:40+0000 [last.fm] sending 'now playing' notification
+2014-08-20T11:20:40+0000 [last.fm] OK
+2014-08-20T11:23:58+0000 mpd error (8): Connection closed by the server
+2014-08-20T11:23:58+0000 waiting 15 seconds before reconnecting
+2014-08-20T11:24:14+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T11:24:14+0000 1408533854, songchange: :B:N: - Øòî çà¢òðà (225)
+2014-08-20T11:24:15+0000 [last.fm] submitting 1 song
+2014-08-20T11:24:15+0000 [last.fm] OK
+2014-08-20T11:25:39+0000 mpd error (8): Connection closed by the server
+2014-08-20T11:25:39+0000 waiting 15 seconds before reconnecting
+2014-08-20T11:25:55+0000 connected to mpd 0.18.0 at localhost
+2014-08-20T13:06:43+0000 new song detected (:B:N: - Âîñü òàêóþ á...), id: 2, pos: 1
+2014-08-20T13:06:45+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:06:45+0000 [last.fm] OK
+2014-08-20T13:06:50+0000 new song detected (:B:N: - Zyvie rock'n'roll!), id: 22, pos: 21
+2014-08-20T13:06:51+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:06:51+0000 [last.fm] OK
+2014-08-20T13:11:06+0000 1408540266, songchange: :B:N: - Zyvie rock'n'roll! (256)
+2014-08-20T13:11:06+0000 new song detected (:B:N: - Dazdzami...), id: 23, pos: 22
+2014-08-20T13:11:07+0000 [last.fm] submitting 1 song
+2014-08-20T13:11:07+0000 [last.fm] OK
+2014-08-20T13:11:07+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:11:07+0000 [last.fm] OK
+2014-08-20T13:12:08+0000 new song detected (:B:N: - Òîëüê³ ÿ), id: 9, pos: 8
+2014-08-20T13:12:09+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:12:09+0000 [last.fm] OK
+2014-08-20T13:16:21+0000 1408540581, songchange: :B:N: - Òîëüê³ ÿ (253)
+2014-08-20T13:16:21+0000 new song detected (:B:N: - ß ïàì¸ð), id: 10, pos: 9
+2014-08-20T13:16:22+0000 [last.fm] submitting 1 song
+2014-08-20T13:16:22+0000 [last.fm] OK
+2014-08-20T13:16:22+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:16:22+0000 [last.fm] OK
+2014-08-20T13:31:06+0000 new song detected (:B:N: - На ростанях), id: 32, pos: 31
+2014-08-20T13:31:08+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:31:08+0000 [last.fm] OK
+2014-08-20T13:35:20+0000 1408541720, songchange: :B:N: - На ростанях (253)
+2014-08-20T13:35:20+0000 new song detected (:B:N: - Сэнс), id: 33, pos: 32
+2014-08-20T13:35:21+0000 [last.fm] submitting 1 song
+2014-08-20T13:35:21+0000 [last.fm] OK
+2014-08-20T13:35:21+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:35:21+0000 [last.fm] OK
+2014-08-20T13:38:17+0000 1408541897, songchange: :B:N: - Сэнс (263)
+2014-08-20T13:38:17+0000 new song detected (:B:N: - Табе ўсё мала), id: 13, pos: 12
+2014-08-20T13:38:18+0000 [last.fm] submitting 1 song
+2014-08-20T13:38:18+0000 [last.fm] OK
+2014-08-20T13:38:18+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:38:18+0000 [last.fm] OK
+2014-08-20T13:38:31+0000 new song detected (:B:N: - Biaz nazvy), id: 29, pos: 28
+2014-08-20T13:38:32+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:38:32+0000 [last.fm] OK
+2014-08-20T13:38:53+0000 new song detected (:B:N: - Usio ad leni), id: 24, pos: 23
+2014-08-20T13:38:54+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:38:54+0000 [last.fm] OK
+2014-08-20T13:41:44+0000 1408542104, songchange: :B:N: - Usio ad leni (171)
+2014-08-20T13:41:44+0000 new song detected (:B:N: - Byu cas...), id: 25, pos: 24
+2014-08-20T13:41:45+0000 [last.fm] submitting 1 song
+2014-08-20T13:41:45+0000 [last.fm] OK
+2014-08-20T13:41:45+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:41:45+0000 [last.fm] OK
+2014-08-20T13:45:11+0000 1408542311, songchange: :B:N: - Byu cas... (207)
+2014-08-20T13:45:11+0000 new song detected (:B:N: - Nie zabyvaj!), id: 26, pos: 25
+2014-08-20T13:45:12+0000 [last.fm] submitting 1 song
+2014-08-20T13:45:12+0000 [last.fm] OK
+2014-08-20T13:45:12+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:45:12+0000 [last.fm] OK
+2014-08-20T13:48:58+0000 1408542538, songchange: :B:N: - Nie zabyvaj! (227)
+2014-08-20T13:48:58+0000 new song detected (:B:N: - Kryly), id: 27, pos: 26
+2014-08-20T13:48:59+0000 [last.fm] submitting 1 song
+2014-08-20T13:48:59+0000 [last.fm] OK
+2014-08-20T13:48:59+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:48:59+0000 [last.fm] OK
+2014-08-20T13:50:23+0000 new song detected (:B:N: - Byu cas...), id: 25, pos: 24
+2014-08-20T13:50:24+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:50:24+0000 [last.fm] OK
+2014-08-20T13:50:26+0000 new song detected (:B:N: - Не трывай), id: 18, pos: 17
+2014-08-20T13:50:27+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:50:27+0000 [last.fm] OK
+2014-08-20T13:50:31+0000 new song detected (:B:N: - Жыць!), id: 15, pos: 14
+2014-08-20T13:50:32+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:50:32+0000 new song detected (:B:N: - Крычыш), id: 14, pos: 13
+2014-08-20T13:50:32+0000 [last.fm] OK
+2014-08-20T13:54:07+0000 1408542847, songchange: :B:N: - Крычыш (215)
+2014-08-20T13:54:07+0000 new song detected (:B:N: - Жыць!), id: 15, pos: 14
+2014-08-20T13:54:08+0000 [last.fm] submitting 1 song
+2014-08-20T13:54:08+0000 [last.fm] OK
+2014-08-20T13:54:08+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:54:08+0000 [last.fm] OK
+2014-08-20T13:57:44+0000 1408543064, songchange: :B:N: - Жыць! (218)
+2014-08-20T13:57:44+0000 new song detected (As Blood Runs Black - Legacy), id: 117, pos: 36
+2014-08-20T13:57:45+0000 [last.fm] submitting 1 song
+2014-08-20T13:57:45+0000 [last.fm] OK
+2014-08-20T13:57:45+0000 [last.fm] sending 'now playing' notification
+2014-08-20T13:57:45+0000 [last.fm] OK
+2014-08-20T14:00:59+0000 1408543259, songchange: As Blood Runs Black - Legacy (214)
+2014-08-20T14:00:59+0000 new song detected (As Blood Runs Black - Before the Break of Dawn), id: 92, pos: 11
+2014-08-20T14:01:00+0000 [last.fm] submitting 1 song
+2014-08-20T14:01:00+0000 [last.fm] OK
+2014-08-20T14:01:00+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:01:00+0000 [last.fm] OK
+2014-08-20T14:07:39+0000 1408543659, songchange: As Blood Runs Black - Before the Break of Dawn (400)
+2014-08-20T14:07:39+0000 new song detected (As Blood Runs Black - Pouring Reign), id: 110, pos: 29
+2014-08-20T14:07:40+0000 [last.fm] submitting 1 song
+2014-08-20T14:07:40+0000 [last.fm] OK
+2014-08-20T14:07:40+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:07:40+0000 [last.fm] OK
+2014-08-20T14:10:53+0000 1408543853, songchange: As Blood Runs Black - Pouring Reign (194)
+2014-08-20T14:10:53+0000 new song detected (As Blood Runs Black - Chug Chug), id: 96, pos: 15
+2014-08-20T14:10:54+0000 [last.fm] submitting 1 song
+2014-08-20T14:10:54+0000 [last.fm] OK
+2014-08-20T14:10:54+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:10:54+0000 [last.fm] OK
+2014-08-20T14:14:40+0000 1408544080, songchange: As Blood Runs Black - Chug Chug (227)
+2014-08-20T14:14:40+0000 new song detected (As Blood Runs Black - Air Force One (Instrumental)), id: 102, pos: 21
+2014-08-20T14:14:41+0000 [last.fm] submitting 1 song
+2014-08-20T14:14:41+0000 [last.fm] OK
+2014-08-20T14:14:41+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:14:41+0000 [last.fm] OK
+2014-08-20T14:15:12+0000 new song detected (As Blood Runs Black - In Dying Days), id: 83, pos: 2
+2014-08-20T14:15:13+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:15:13+0000 [last.fm] OK
+2014-08-20T14:18:55+0000 1408544335, songchange: As Blood Runs Black - In Dying Days (223)
+2014-08-20T14:18:55+0000 new song detected (As Blood Runs Black - A New Begining), id: 91, pos: 10
+2014-08-20T14:18:56+0000 [last.fm] submitting 1 song
+2014-08-20T14:18:56+0000 [last.fm] OK
+2014-08-20T14:18:56+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:18:56+0000 [last.fm] OK
+2014-08-20T14:23:14+0000 1408544594, songchange: As Blood Runs Black - A New Begining (258)
+2014-08-20T14:23:14+0000 new song detected (As Blood Runs Black - Innocent Massacre), id: 90, pos: 9
+2014-08-20T14:23:15+0000 [last.fm] submitting 1 song
+2014-08-20T14:23:15+0000 [last.fm] OK
+2014-08-20T14:23:15+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:23:15+0000 [last.fm] OK
+2014-08-20T14:26:48+0000 1408544808, songchange: As Blood Runs Black - Innocent Massacre (214)
+2014-08-20T14:26:48+0000 new song detected (As Blood Runs Black - Beneath the Surface), id: 114, pos: 33
+2014-08-20T14:26:49+0000 [last.fm] submitting 1 song
+2014-08-20T14:26:49+0000 [last.fm] OK
+2014-08-20T14:26:49+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:26:49+0000 [last.fm] OK
+2014-08-20T14:31:27+0000 1408545087, songchange: As Blood Runs Black - Beneath the Surface (279)
+2014-08-20T14:31:27+0000 new song detected (As Blood Runs Black - Hester Prynn), id: 88, pos: 7
+2014-08-20T14:31:28+0000 [last.fm] submitting 1 song
+2014-08-20T14:31:28+0000 [last.fm] OK
+2014-08-20T14:31:28+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:31:28+0000 [last.fm] OK
+2014-08-20T14:35:10+0000 1408545310, songchange: As Blood Runs Black - Hester Prynn (222)
+2014-08-20T14:35:10+0000 new song detected (As Blood Runs Black - Resist), id: 118, pos: 37
+2014-08-20T14:35:11+0000 [last.fm] submitting 1 song
+2014-08-20T14:35:11+0000 [last.fm] OK
+2014-08-20T14:35:11+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:35:11+0000 [last.fm] OK
+2014-08-20T14:38:11+0000 1408545491, songchange: As Blood Runs Black - Resist (181)
+2014-08-20T14:38:11+0000 new song detected (As Blood Runs Black - Hester Prynee), id: 109, pos: 28
+2014-08-20T14:38:12+0000 [last.fm] submitting 1 song
+2014-08-20T14:38:12+0000 [last.fm] OK
+2014-08-20T14:38:12+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:38:12+0000 [last.fm] OK
+2014-08-20T14:41:49+0000 1408545709, songchange: As Blood Runs Black - Hester Prynee (219)
+2014-08-20T14:41:49+0000 new song detected (As Blood Runs Black - Before the Break of Dawn / Rap (hidden track)), id: 87, pos: 6
+2014-08-20T14:41:50+0000 [last.fm] submitting 1 song
+2014-08-20T14:41:50+0000 [last.fm] OK
+2014-08-20T14:41:50+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:41:50+0000 [last.fm] OK
+2014-08-20T14:53:49+0000 1408546429, songchange: As Blood Runs Black - Before the Break of Dawn / Rap (hidden track) (867)
+2014-08-20T14:53:49+0000 new song detected (As Blood Runs Black - Hester Prynn), id: 88, pos: 7
+2014-08-20T14:53:50+0000 [last.fm] submitting 1 song
+2014-08-20T14:53:50+0000 [last.fm] OK
+2014-08-20T14:53:50+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:53:50+0000 [last.fm] OK
+2014-08-20T14:53:53+0000 new song detected (As Blood Runs Black - Before the Break of Dawn / Rap (hidden track)), id: 87, pos: 6
+2014-08-20T14:53:54+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:53:54+0000 [last.fm] OK
+2014-08-20T14:54:23+0000 new song detected (As Blood Runs Black - Diamonds Aren't Forever), id: 86, pos: 5
+2014-08-20T14:54:24+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:54:24+0000 [last.fm] OK
+2014-08-20T14:54:26+0000 new song detected (:B:N: - Жыць!), id: 15, pos: 0
+2014-08-20T14:54:27+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:54:27+0000 [last.fm] OK
+2014-08-20T14:54:39+0000 new song detected with tags missing (Lossless/In Flames/1994 Lunar Strain (2004 Reissue)/In Flames - Lunar Strain.flac)
+2014-08-20T14:54:53+0000 new song detected (In Flames - Behind Space), id: 149, pos: 0
+2014-08-20T14:54:54+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:54:54+0000 [last.fm] OK
+2014-08-20T14:59:49+0000 1408546789, songchange: In Flames - Behind Space (295)
+2014-08-20T14:59:49+0000 new song detected (In Flames - Acoustic Piece (Promo Version)), id: 161, pos: 12
+2014-08-20T14:59:51+0000 [last.fm] submitting 1 song
+2014-08-20T14:59:51+0000 [last.fm] OK
+2014-08-20T14:59:51+0000 [last.fm] sending 'now playing' notification
+2014-08-20T14:59:51+0000 [last.fm] OK
+2014-08-20T15:00:25+0000 1408546825, songchange: In Flames - Acoustic Piece (Promo Version) (37)
+2014-08-20T15:00:25+0000 new song detected (In Flames - Upon an Oaken Throne), id: 158, pos: 9
+2014-08-20T15:00:26+0000 [last.fm] submitting 1 song
+2014-08-20T15:00:26+0000 [last.fm] OK
+2014-08-20T15:00:26+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:00:26+0000 [last.fm] OK
+2014-08-20T15:03:13+0000 1408546993, songchange: In Flames - Upon an Oaken Throne (168)
+2014-08-20T15:03:13+0000 new song detected (In Flames - Hargalaten), id: 156, pos: 7
+2014-08-20T15:03:14+0000 [last.fm] submitting 1 song
+2014-08-20T15:03:14+0000 [last.fm] OK
+2014-08-20T15:03:14+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:03:14+0000 [last.fm] OK
+2014-08-20T15:05:38+0000 1408547138, songchange: In Flames - Hargalaten (145)
+2014-08-20T15:05:38+0000 new song detected (In Flames - Clad In Shadows (Promo Version)), id: 162, pos: 13
+2014-08-20T15:05:39+0000 [last.fm] submitting 1 song
+2014-08-20T15:05:39+0000 [last.fm] OK
+2014-08-20T15:05:39+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:05:39+0000 [last.fm] OK
+2014-08-20T15:06:20+0000 new song detected (In Flames - Clad in Shadows), id: 150, pos: 1
+2014-08-20T15:06:21+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:06:21+0000 [last.fm] OK
+2014-08-20T15:09:11+0000 1408547351, songchange: In Flames - Clad in Shadows (170)
+2014-08-20T15:09:11+0000 new song detected (In Flames - Lunar Strain), id: 151, pos: 2
+2014-08-20T15:09:12+0000 [last.fm] submitting 1 song
+2014-08-20T15:09:12+0000 [last.fm] OK
+2014-08-20T15:09:12+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:09:12+0000 [last.fm] OK
+2014-08-20T15:13:14+0000 1408547594, songchange: In Flames - Lunar Strain (244)
+2014-08-20T15:13:14+0000 new song detected (In Flames - Starforsaken), id: 152, pos: 3
+2014-08-20T15:13:15+0000 [last.fm] submitting 1 song
+2014-08-20T15:13:15+0000 [last.fm] OK
+2014-08-20T15:13:15+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:13:15+0000 [last.fm] OK
+2014-08-20T15:16:22+0000 1408547782, songchange: In Flames - Starforsaken (188)
+2014-08-20T15:16:22+0000 new song detected (In Flames - Dreamscape), id: 153, pos: 4
+2014-08-20T15:16:23+0000 [last.fm] submitting 1 song
+2014-08-20T15:16:23+0000 [last.fm] OK
+2014-08-20T15:16:23+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:16:23+0000 [last.fm] OK
+2014-08-20T15:20:06+0000 1408548006, songchange: In Flames - Dreamscape (223)
+2014-08-20T15:20:06+0000 new song detected (In Flames - Everlost (Part I)), id: 154, pos: 5
+2014-08-20T15:20:07+0000 [last.fm] submitting 1 song
+2014-08-20T15:20:07+0000 [last.fm] OK
+2014-08-20T15:20:07+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:20:07+0000 [last.fm] OK
+2014-08-20T15:24:23+0000 1408548263, songchange: In Flames - Everlost (Part I) (257)
+2014-08-20T15:24:23+0000 new song detected (In Flames - Everlost (Part II)), id: 155, pos: 6
+2014-08-20T15:24:24+0000 [last.fm] submitting 1 song
+2014-08-20T15:24:24+0000 [last.fm] OK
+2014-08-20T15:24:24+0000 [last.fm] sending 'now playing' notification
+2014-08-20T15:24:24+0000 [last.fm] OK
+2014-08-20T17:45:50+0000 shutting down
+2014-08-27T23:14:44+0000 connected to mpd 0.18.0 at localhost
+2014-08-27T23:14:44+0000 starting mpdscribble (mdc 0.22)
+2014-08-27T23:14:44+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-27T23:14:46+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-27T23:14:46+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-27T23:15:46+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-27T23:15:46+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-27T23:18:01+0000 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-08-27T23:18:01+0000 [last.fm] waiting 240 seconds before trying again
+2014-08-27T23:19:21+0000 connected to mpd 0.18.0 at localhost
+2014-08-27T23:19:21+0000 starting mpdscribble (mdc 0.22)
+2014-08-27T23:19:21+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-27T23:21:30+0000 [last.fm] handshake error: got HTTP status 7 (Could not connect: Connection timed out)
+2014-08-27T23:21:30+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-27T23:24:13+0000 [last.fm] handshake error: got HTTP status 7 (Could not connect: Connection timed out)
+2014-08-27T23:24:13+0000 [last.fm] waiting 480 seconds before trying again
+2014-08-27T23:24:38+0000 [last.fm] handshake error: got HTTP status 7 (Could not connect: Connection timed out)
+2014-08-27T23:24:38+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-27T23:26:39+0000 [last.fm] handshake successful
+2014-08-27T23:32:14+0000 [last.fm] handshake successful
+2014-08-28T12:09:14+0000 connected to mpd 0.18.0 at localhost
+2014-08-28T12:09:14+0000 starting mpdscribble (mdc 0.22)
+2014-08-28T12:09:14+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-28T12:09:16+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-28T12:09:16+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-28T12:10:16+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-28T12:10:16+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-28T12:12:16+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-28T12:12:16+0000 [last.fm] waiting 240 seconds before trying again
+2014-08-28T12:16:16+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-28T12:16:16+0000 [last.fm] waiting 480 seconds before trying again
+2014-08-28T12:24:16+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-28T12:24:16+0000 [last.fm] waiting 960 seconds before trying again
+2014-08-28T12:40:16+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-28T12:40:16+0000 [last.fm] waiting 1920 seconds before trying again
+2014-08-28T12:42:55+0000 shutting down
+2014-08-31T22:33:44+0000 connected to mpd 0.18.0 at localhost
+2014-08-31T22:33:44+0000 starting mpdscribble (mdc 0.22)
+2014-08-31T22:33:44+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-31T22:33:46+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-31T22:33:46+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-31T22:34:46+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-31T22:34:46+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-31T22:36:46+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-31T22:36:46+0000 [last.fm] waiting 240 seconds before trying again
+2014-08-31T22:37:02+0000 new song detected (AMAROKA - Lepšy dzień), id: 17, pos: 16
+2014-08-31T22:39:16+0000 connected to mpd 0.18.0 at localhost
+2014-08-31T22:39:16+0000 starting mpdscribble (mdc 0.22)
+2014-08-31T22:39:16+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-08-31T22:39:17+0000 new song detected (AMAROKA - Lepšy dzień), id: 17, pos: 16
+2014-08-31T22:39:18+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-31T22:39:18+0000 [last.fm] waiting 60 seconds before trying again
+2014-08-31T22:39:35+0000 1409524775, songchange: AMAROKA - Lepšy dzień (153)
+2014-08-31T22:39:35+0000 new song detected (AMAROKA - Budź ščaślivaj), id: 18, pos: 17
+2014-08-31T22:39:35+0000 new song detected (AMAROKA - Budź ščaślivaj), id: 18, pos: 17
+2014-08-31T22:40:18+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-31T22:40:18+0000 [last.fm] waiting 120 seconds before trying again
+2014-08-31T22:40:46+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-08-31T22:40:46+0000 [last.fm] waiting 480 seconds before trying again
+2014-08-31T22:40:52+0000 shutting down
+2014-08-31T22:40:52+0000 shutting down
+2014-09-01T21:34:40+0000 connected to mpd 0.18.0 at localhost
+2014-09-01T21:34:40+0000 starting mpdscribble (mdc 0.22)
+2014-09-01T21:34:40+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-09-01T21:34:42+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-01T21:34:42+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-01T21:35:42+0000 [last.fm] handshake successful
+2014-09-02T00:19:35+0000 shutting down
+2014-09-02T11:53:33+0000 connected to mpd 0.18.0 at localhost
+2014-09-02T11:53:33+0000 starting mpdscribble (mdc 0.22)
+2014-09-02T11:53:33+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-09-02T11:53:35+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T11:53:35+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-02T11:54:35+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T11:54:35+0000 [last.fm] waiting 120 seconds before trying again
+2014-09-02T11:56:35+0000 [last.fm] handshake successful
+2014-09-02T12:03:06+0000 new song detected (The Tony Danza Tapdance Extravaganza - 5 Deep On Charlie), id: 46, pos: 0
+2014-09-02T12:03:07+0000 [last.fm] sending 'now playing' notification
+2014-09-02T12:03:07+0000 [last.fm] OK
+2014-09-02T12:03:38+0000 new song detected (The Tony Danza Tapdance Extravaganza - Behind Those Eyes), id: 92, pos: 46
+2014-09-02T12:03:39+0000 [last.fm] sending 'now playing' notification
+2014-09-02T12:03:39+0000 [last.fm] OK
+2014-09-02T12:08:18+0000 1409659698, songchange: The Tony Danza Tapdance Extravaganza - Behind Those Eyes (281)
+2014-09-02T12:08:18+0000 new song detected (The Tony Danza Tapdance Extravaganza - You Won't), id: 93, pos: 47
+2014-09-02T12:08:19+0000 [last.fm] submitting 1 song
+2014-09-02T12:08:19+0000 [last.fm] OK
+2014-09-02T12:08:19+0000 [last.fm] sending 'now playing' notification
+2014-09-02T12:08:20+0000 [last.fm] OK
+2014-09-02T12:09:02+0000 new song detected (Machine Head - Burn My Eyes [Japan, Far East Metal Syndicate, APCY-8185]), id: 154, pos: 0
+2014-09-02T12:09:03+0000 [last.fm] sending 'now playing' notification
+2014-09-02T12:09:03+0000 [last.fm] OK
+2014-09-02T12:09:07+0000 new song detected with tags missing (Lossless/Machine Head/2012 - Machine Fucking Head Live/2012 - Machine Fucking Head Live [Roadrunner, RR 7623-2, Germany]/Machine Head - Machine Fucking Head Live CD1.flac)
+2014-09-02T12:09:09+0000 new song detected with tags missing (Lossless/Machine Head/2007 - The Blackening/2008 - The Blackening [Roadrunner, RR 8016-5, Germany]/Machine Head - The Blackening  Special Edition CD 1.flac)
+2014-09-02T12:09:11+0000 new song detected (Machine Head - All Falls Down), id: 191, pos: 37
+2014-09-02T12:09:12+0000 [last.fm] sending 'now playing' notification
+2014-09-02T12:09:12+0000 [last.fm] OK
+2014-09-02T12:09:25+0000 new song detected (Machine Head - I Am Hell {Sonata In C#}: Sangre Sani | I Am Hell | Ashes To The Sky), id: 201, pos: 0
+2014-09-02T12:09:26+0000 [last.fm] sending 'now playing' notification
+2014-09-02T12:09:26+0000 [last.fm] OK
+2014-09-02T12:10:40+0000 connected to mpd 0.18.0 at localhost
+2014-09-02T12:10:40+0000 starting mpdscribble (mdc 0.22)
+2014-09-02T12:10:40+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-09-02T12:10:40+0000 new song detected (Machine Head - I Am Hell {Sonata In C#}: Sangre Sani | I Am Hell | Ashes To The Sky), id: 201, pos: 0
+2014-09-02T12:10:41+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T12:10:41+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-02T12:11:41+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T12:11:41+0000 [last.fm] waiting 120 seconds before trying again
+2014-09-02T12:13:41+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T12:13:41+0000 [last.fm] waiting 240 seconds before trying again
+2014-09-02T12:17:41+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T12:17:41+0000 [last.fm] waiting 480 seconds before trying again
+2014-09-02T12:17:51+0000 1409660271, songchange: Machine Head - I Am Hell {Sonata In C#}: Sangre Sani | I Am Hell | Ashes To The Sky (506)
+2014-09-02T12:17:51+0000 new song detected (Machine Head - Be Still And Know), id: 202, pos: 1
+2014-09-02T12:17:51+0000 1409660271, songchange: Machine Head - I Am Hell {Sonata In C#}: Sangre Sani | I Am Hell | Ashes To The Sky (506)
+2014-09-02T12:17:51+0000 new song detected (Machine Head - Be Still And Know), id: 202, pos: 1
+2014-09-02T12:17:52+0000 [last.fm] submitting 1 song
+2014-09-02T12:17:52+0000 [last.fm] submit error: got HTTP status 2 (Error resolving 'post2.audioscrobbler.com': Name or service not known)
+2014-09-02T12:17:52+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-02T12:18:28+0000 new song detected (Machine Head - Locust), id: 203, pos: 2
+2014-09-02T12:18:28+0000 new song detected (Machine Head - Locust), id: 203, pos: 2
+2014-09-02T12:18:29+0000 new song detected (Machine Head - This Is The End), id: 204, pos: 3
+2014-09-02T12:18:29+0000 new song detected (Machine Head - This Is The End), id: 204, pos: 3
+2014-09-02T12:18:52+0000 [last.fm] submitting 1 song
+2014-09-02T12:18:52+0000 [last.fm] submit error: got HTTP status 2 (Error resolving 'post2.audioscrobbler.com': Name or service not known)
+2014-09-02T12:18:52+0000 [last.fm] waiting 120 seconds before trying again
+2014-09-02T12:20:40+0000 Failed to save /home/biohazard/.mpdscibble/lastfm.journal: No such file or directory
+2014-09-02T12:20:52+0000 [last.fm] submitting 1 song
+2014-09-02T12:20:52+0000 [last.fm] submit error: got HTTP status 2 (Error resolving 'post2.audioscrobbler.com': Name or service not known)
+2014-09-02T12:20:52+0000 [last.fm] waiting 240 seconds before trying again
+2014-09-02T12:22:33+0000 shutting down
+2014-09-02T12:22:33+0000 Failed to save /home/biohazard/.mpdscibble/lastfm.journal: No such file or directory
+2014-09-02T12:22:33+0000 GLib: g_main_loop_quit: assertion 'g_atomic_int_get (&loop->ref_count) > 0' failed
+2014-09-02T12:22:33+0000 shutting down
+2014-09-02T12:22:33+0000 Failed to save /home/biohazard/.mpdscibble/lastfm.journal: No such file or directory
+2014-09-02T20:11:56+0000 connected to mpd 0.18.0 at localhost
+2014-09-02T20:11:56+0000 starting mpdscribble (mdc 0.22)
+2014-09-02T20:11:56+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-09-02T20:11:58+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T20:11:58+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-02T20:12:58+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T20:12:58+0000 [last.fm] waiting 120 seconds before trying again
+2014-09-02T20:14:58+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-02T20:14:58+0000 [last.fm] waiting 240 seconds before trying again
+2014-09-02T20:18:58+0000 [last.fm] handshake successful
+2014-09-02T20:24:04+0000 shutting down
+2014-09-28T17:41:02+0000 connected to mpd 0.18.0 at localhost
+2014-09-28T17:41:02+0000 starting mpdscribble (mdc 0.22)
+2014-09-28T17:41:02+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-09-28T17:41:04+0000 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-09-28T17:41:04+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-28T17:42:05+0000 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-09-28T17:42:05+0000 [last.fm] waiting 120 seconds before trying again
+2014-09-28T17:42:05+0000 connected to mpd 0.18.0 at localhost
+2014-09-28T17:42:05+0000 starting mpdscribble (mdc 0.22)
+2014-09-28T17:42:05+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-09-28T17:42:07+0000 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-09-28T17:42:07+0000 [last.fm] waiting 60 seconds before trying again
+2014-09-28T17:43:07+0000 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-09-28T17:43:07+0000 [last.fm] waiting 120 seconds before trying again
+2014-09-28T17:44:05+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T17:44:05+0000 [last.fm] waiting 240 seconds before trying again
+2014-09-28T17:45:07+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T17:45:07+0000 [last.fm] waiting 240 seconds before trying again
+2014-09-28T17:48:05+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T17:48:05+0000 [last.fm] waiting 480 seconds before trying again
+2014-09-28T17:49:07+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T17:49:07+0000 [last.fm] waiting 480 seconds before trying again
+2014-09-28T17:56:05+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T17:56:05+0000 [last.fm] waiting 960 seconds before trying again
+2014-09-28T17:57:07+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T17:57:07+0000 [last.fm] waiting 960 seconds before trying again
+2014-09-28T18:12:05+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T18:12:05+0000 [last.fm] waiting 1920 seconds before trying again
+2014-09-28T18:13:07+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T18:13:07+0000 [last.fm] waiting 1920 seconds before trying again
+2014-09-28T18:44:05+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T18:44:05+0000 [last.fm] waiting 3840 seconds before trying again
+2014-09-28T18:45:07+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-09-28T18:45:07+0000 [last.fm] waiting 3840 seconds before trying again
+2014-09-28T19:35:30+0000 shutting down
+2014-09-28T19:35:30+0000 shutting down
+2014-11-02T12:30:10+0000 connected to mpd 0.18.0 at localhost
+2014-11-02T12:30:10+0000 starting mpdscribble (mdc 0.22)
+2014-11-02T12:30:10+0000 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-11-02T12:30:12+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-11-02T12:30:12+0000 [last.fm] waiting 60 seconds before trying again
+2014-11-02T12:31:12+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-11-02T12:31:12+0000 [last.fm] waiting 120 seconds before trying again
+2014-11-02T12:33:12+0000 [last.fm] handshake error: got HTTP status 2 (Error resolving 'post.audioscrobbler.com': Name or service not known)
+2014-11-02T12:33:12+0000 [last.fm] waiting 240 seconds before trying again
+2014-11-02T20:26:36+0300 connected to mpd 0.19.0 at localhost
+2014-11-02T20:26:37+0300 starting mpdscribble (mdc 0.22)
+2014-11-02T20:26:37+0300 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-11-02T20:26:41+0300 [last.fm] handshake successful
+2014-11-02T20:28:06+0300 new song detected (Dark Tranquillity - Punish My Heaven), id: 19, pos: 0
+2014-11-02T20:28:07+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:28:07+0300 [last.fm] OK
+2014-11-02T20:28:35+0300 connected to mpd 0.19.0 at localhost
+2014-11-02T20:28:35+0300 starting mpdscribble (mdc 0.22)
+2014-11-02T20:28:35+0300 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-11-02T20:28:35+0300 new song detected (Dark Tranquillity - Punish My Heaven), id: 19, pos: 0
+2014-11-02T20:28:36+0300 [last.fm] handshake successful
+2014-11-02T20:28:36+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:28:36+0300 [last.fm] OK
+2014-11-02T20:32:15+0300 connected to mpd 0.19.0 at localhost
+2014-11-02T20:32:15+0300 starting mpdscribble (mdc 0.22)
+2014-11-02T20:32:15+0300 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-11-02T20:32:16+0300 new song detected (Dark Tranquillity - Punish My Heaven), id: 19, pos: 0
+2014-11-02T20:32:17+0300 [last.fm] handshake successful
+2014-11-02T20:32:17+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:32:17+0300 [last.fm] OK
+2014-11-02T20:32:54+0300 new song detected (Dark Tranquillity - Silence, and the Firmament Withdrew), id: 20, pos: 1
+2014-11-02T20:32:54+0300 1414949574, songchange: Dark Tranquillity - Punish My Heaven (288)
+2014-11-02T20:32:54+0300 new song detected (Dark Tranquillity - Silence, and the Firmament Withdrew), id: 20, pos: 1
+2014-11-02T20:32:54+0300 1414949574, songchange: Dark Tranquillity - Punish My Heaven (288)
+2014-11-02T20:32:54+0300 new song detected (Dark Tranquillity - Silence, and the Firmament Withdrew), id: 20, pos: 1
+2014-11-02T20:32:55+0300 [last.fm] submitting 1 song
+2014-11-02T20:32:55+0300 [last.fm] submitting 1 song
+2014-11-02T20:32:55+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:32:55+0300 [last.fm] OK
+2014-11-02T20:32:55+0300 [last.fm] invalid session
+2014-11-02T20:32:55+0300 [last.fm] invalid session
+2014-11-02T20:32:57+0300 [last.fm] handshake successful
+2014-11-02T20:32:57+0300 [last.fm] submitting 1 song
+2014-11-02T20:32:57+0300 [last.fm] handshake successful
+2014-11-02T20:32:57+0300 [last.fm] submitting 1 song
+2014-11-02T20:32:57+0300 [last.fm] OK
+2014-11-02T20:32:57+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:32:57+0300 [last.fm] OK
+2014-11-02T20:32:57+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:32:57+0300 [last.fm] OK
+2014-11-02T20:32:57+0300 [last.fm] OK
+2014-11-02T20:34:26+0300 connected to mpd 0.19.0 at localhost
+2014-11-02T20:34:26+0300 starting mpdscribble (mdc 0.22)
+2014-11-02T20:34:26+0300 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-11-02T20:34:27+0300 new song detected (Dark Tranquillity - Silence, and the Firmament Withdrew), id: 20, pos: 1
+2014-11-02T20:34:28+0300 [last.fm] handshake successful
+2014-11-02T20:34:28+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:34:28+0300 [last.fm] OK
+2014-11-02T20:35:30+0300 1414949730, songchange: Dark Tranquillity - Silence, and the Firmament Withdrew (156)
+2014-11-02T20:35:30+0300 1414949730, songchange: Dark Tranquillity - Silence, and the Firmament Withdrew (156)
+2014-11-02T20:35:30+0300 new song detected (Dark Tranquillity - Edenspring), id: 21, pos: 2
+2014-11-02T20:35:30+0300 new song detected (Dark Tranquillity - Edenspring), id: 21, pos: 2
+2014-11-02T20:35:30+0300 1414949730, songchange: Dark Tranquillity - Silence, and the Firmament Withdrew (156)
+2014-11-02T20:35:30+0300 new song detected (Dark Tranquillity - Edenspring), id: 21, pos: 2
+2014-11-02T20:35:30+0300 new song detected (Dark Tranquillity - Edenspring), id: 21, pos: 2
+2014-11-02T20:35:31+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:35:31+0300 [last.fm] submitting 1 song
+2014-11-02T20:35:31+0300 [last.fm] submitting 1 song
+2014-11-02T20:35:31+0300 [last.fm] submitting 1 song
+2014-11-02T20:35:31+0300 [last.fm] OK
+2014-11-02T20:35:31+0300 [last.fm] invalid session
+2014-11-02T20:35:31+0300 [last.fm] invalid session
+2014-11-02T20:35:31+0300 [last.fm] OK
+2014-11-02T20:35:31+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:35:31+0300 [last.fm] OK
+2014-11-02T20:35:32+0300 [last.fm] handshake successful
+2014-11-02T20:35:32+0300 [last.fm] submitting 1 song
+2014-11-02T20:35:32+0300 [last.fm] OK
+2014-11-02T20:35:32+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:35:32+0300 [last.fm] OK
+2014-11-02T20:35:33+0300 [last.fm] handshake successful
+2014-11-02T20:35:33+0300 [last.fm] submitting 1 song
+2014-11-02T20:35:33+0300 [last.fm] OK
+2014-11-02T20:35:33+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:35:33+0300 [last.fm] OK
+2014-11-02T20:40:01+0300 1414950001, songchange: Dark Tranquillity - Edenspring (271)
+2014-11-02T20:40:01+0300 new song detected (Dark Tranquillity - The Dividing Line), id: 22, pos: 3
+2014-11-02T20:40:01+0300 1414950001, songchange: Dark Tranquillity - Edenspring (271)
+2014-11-02T20:40:01+0300 new song detected (Dark Tranquillity - The Dividing Line), id: 22, pos: 3
+2014-11-02T20:40:01+0300 1414950001, songchange: Dark Tranquillity - Edenspring (271)
+2014-11-02T20:40:01+0300 new song detected (Dark Tranquillity - The Dividing Line), id: 22, pos: 3
+2014-11-02T20:40:01+0300 1414950001, songchange: Dark Tranquillity - Edenspring (271)
+2014-11-02T20:40:01+0300 new song detected (Dark Tranquillity - The Dividing Line), id: 22, pos: 3
+2014-11-02T20:40:02+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:02+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:02+0300 [last.fm] OK
+2014-11-02T20:40:02+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:40:02+0300 [last.fm] invalid session
+2014-11-02T20:40:02+0300 [last.fm] OK
+2014-11-02T20:40:02+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:02+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:02+0300 [last.fm] OK
+2014-11-02T20:40:02+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:40:03+0300 [last.fm] OK
+2014-11-02T20:40:03+0300 [last.fm] invalid session
+2014-11-02T20:40:04+0300 [last.fm] handshake successful
+2014-11-02T20:40:04+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:04+0300 [last.fm] handshake successful
+2014-11-02T20:40:04+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:04+0300 [last.fm] OK
+2014-11-02T20:40:04+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:40:04+0300 [last.fm] invalid session
+2014-11-02T20:40:06+0300 [last.fm] handshake successful
+2014-11-02T20:40:06+0300 [last.fm] submitting 1 song
+2014-11-02T20:40:06+0300 [last.fm] OK
+2014-11-02T20:40:06+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:40:06+0300 [last.fm] OK
+2014-11-02T20:40:07+0300 [last.fm] OK
+2014-11-02T20:45:03+0300 1414950303, songchange: Dark Tranquillity - The Dividing Line (301)
+2014-11-02T20:45:03+0300 new song detected (Dark Tranquillity - The Gallery), id: 23, pos: 4
+2014-11-02T20:45:03+0300 1414950303, songchange: Dark Tranquillity - The Dividing Line (301)
+2014-11-02T20:45:03+0300 new song detected (Dark Tranquillity - The Gallery), id: 23, pos: 4
+2014-11-02T20:45:04+0300 [last.fm] submitting 1 song
+2014-11-02T20:45:04+0300 [last.fm] submitting 1 song
+2014-11-02T20:45:04+0300 [last.fm] OK
+2014-11-02T20:45:04+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:45:04+0300 [last.fm] invalid session
+2014-11-02T20:45:04+0300 [last.fm] OK
+2014-11-02T20:45:04+0300 1414950304, songchange: Dark Tranquillity - The Dividing Line (301)
+2014-11-02T20:45:04+0300 new song detected (Dark Tranquillity - The Gallery), id: 23, pos: 4
+2014-11-02T20:45:04+0300 1414950304, songchange: Dark Tranquillity - The Dividing Line (301)
+2014-11-02T20:45:04+0300 new song detected (Dark Tranquillity - The Gallery), id: 23, pos: 4
+2014-11-02T20:45:06+0300 [last.fm] handshake successful
+2014-11-02T20:45:06+0300 [last.fm] submitting 1 song
+2014-11-02T20:45:06+0300 [last.fm] OK
+2014-11-02T20:45:06+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:45:06+0300 [last.fm] submitting 1 song
+2014-11-02T20:45:06+0300 [last.fm] submitting 1 song
+2014-11-02T20:45:06+0300 [last.fm] OK
+2014-11-02T20:45:06+0300 [last.fm] invalid session
+2014-11-02T20:45:06+0300 [last.fm] OK
+2014-11-02T20:45:06+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:45:07+0300 [last.fm] OK
+2014-11-02T20:45:08+0300 [last.fm] handshake successful
+2014-11-02T20:45:08+0300 [last.fm] submitting 1 song
+2014-11-02T20:45:08+0300 [last.fm] OK
+2014-11-02T20:45:08+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:45:08+0300 [last.fm] OK
+2014-11-02T20:49:11+0300 1414950551, songchange: Dark Tranquillity - The Gallery (248)
+2014-11-02T20:49:11+0300 new song detected (Dark Tranquillity - The One Brooding Warning), id: 24, pos: 5
+2014-11-02T20:49:11+0300 1414950551, songchange: Dark Tranquillity - The Gallery (248)
+2014-11-02T20:49:11+0300 new song detected (Dark Tranquillity - The One Brooding Warning), id: 24, pos: 5
+2014-11-02T20:49:11+0300 1414950551, songchange: Dark Tranquillity - The Gallery (248)
+2014-11-02T20:49:11+0300 new song detected (Dark Tranquillity - The One Brooding Warning), id: 24, pos: 5
+2014-11-02T20:49:11+0300 1414950551, songchange: Dark Tranquillity - The Gallery (248)
+2014-11-02T20:49:11+0300 new song detected (Dark Tranquillity - The One Brooding Warning), id: 24, pos: 5
+2014-11-02T20:49:12+0300 [last.fm] submitting 1 song
+2014-11-02T20:49:12+0300 [last.fm] submitting 1 song
+2014-11-02T20:49:12+0300 [last.fm] submitting 1 song
+2014-11-02T20:49:12+0300 [last.fm] submitting 1 song
+2014-11-02T20:49:12+0300 [last.fm] invalid session
+2014-11-02T20:49:12+0300 [last.fm] invalid session
+2014-11-02T20:49:12+0300 [last.fm] OK
+2014-11-02T20:49:12+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:49:12+0300 [last.fm] OK
+2014-11-02T20:49:12+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:49:12+0300 [last.fm] OK
+2014-11-02T20:49:14+0300 [last.fm] handshake successful
+2014-11-02T20:49:14+0300 [last.fm] submitting 1 song
+2014-11-02T20:49:14+0300 [last.fm] handshake successful
+2014-11-02T20:49:14+0300 [last.fm] submitting 1 song
+2014-11-02T20:49:14+0300 [last.fm] OK
+2014-11-02T20:49:14+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:49:14+0300 [last.fm] OK
+2014-11-02T20:49:14+0300 [last.fm] sending 'now playing' notification
+2014-11-02T20:49:14+0300 [last.fm] OK
+2014-11-02T20:49:16+0300 [last.fm] OK
+2014-11-02T20:49:18+0300 [last.fm] OK
+2014-11-19T17:22:12+0300 connected to mpd 0.19.0 at localhost
+2014-11-19T17:22:12+0300 starting mpdscribble (mdc 0.22)
+2014-11-19T17:22:12+0300 loaded 0 songs from /home/biohazard/.mpdscibble/lastfm.journal
+2014-11-19T17:22:14+0300 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-11-19T17:22:14+0300 [last.fm] waiting 60 seconds before trying again
+2014-11-19T17:23:15+0300 [last.fm] handshake error: got HTTP status 4 (Could not connect: Network is unreachable)
+2014-11-19T17:23:15+0300 [last.fm] waiting 120 seconds before trying again
+2014-11-19T17:25:15+0300 [last.fm] handshake successful

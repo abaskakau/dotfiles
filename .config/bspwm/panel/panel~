@@ -1,0 +1,102 @@
+#!/bin/sh
+
+. panel_colors
+BarFont='-*-lemon-*-*-*-*-*-*-*-*-*-*-*-*'
+BarHeight="17"
+NewMon=0
+LastMon=0
+Delta=0
+
+BspcConfig ()
+{
+	printf "%s\n" "bs1" >&2
+	bspc monitor -r I II III IV V VI VII VIII IX X
+	printf "%s\n" "bs2" >&2
+	bspc config -m LVDS top_padding $BarHeight
+	printf "%s\n" "bs3" >&2
+	bspc control --subscribe > "$PANEL_FIFO" &
+	if [[ $1 -eq 1 ]];then
+		printf "%s\n" "bs4.1" >&2
+		bspc monitor LVDS -d I II III IV V
+		bspc monitor CRT1 -d VI VII VIII IX X
+		bspc config -m CRT1 border_width 0
+		bspc config -m CRT1 window_gap 0
+		hsetroot -full ~/archlinux2.png
+	else
+		printf "%s\n" "bs4.0" >&2
+		bspc monitor LVDS -d I II III IV V VI VII VIII IX X
+		hsetroot -center ~/archlinux1.png
+	fi
+	printf "%s\n" "bs5" >&2
+	bspc config -m LVDS window_gap 12
+	bspc config -m LVDS border_width 0
+}
+RestartBar ()
+{
+	printf "%s\n" "r1" >&2
+	#killall -e bar
+	printf "%s\n" "r2" >&2
+	[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+	printf "%s\n" "r3" >&2
+	mkfifo "$PANEL_FIFO"
+	printf "%s\n" "r4" >&2
+	cat "$PANEL_FIFO" | panel_bar | bar -g 1366x$BarHeight+$Delta -f "$BarFont" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" &
+	BspcConfig $1
+}
+ConfigMon ()
+{
+	if [[ $1 -eq 1 ]];then
+		disper -e -t left
+	else
+		disper -s
+	fi
+	RestartBar $1
+}
+DetectMon ()
+{
+	if [[ -n `xrandr -q | grep "CRT1 connected"` ]];then
+		NewMon=1
+	else
+		NewMon=0
+	fi
+	if [[ $1 -eq 0 ]];then
+		if [[ $NewMon -eq 1 ]];then
+			LastMon=0
+		else
+			LastMon=1
+		fi
+	fi
+	if [[ $NewMon -ne $LastMon && $NewMon -eq 1 ]];then
+		LastMon=$NewMon
+		Delta=1280
+		ConfigMon 1
+	elif [[ $NewMon -ne $LastMon && $NewMon -eq 0 ]];then
+		LastMon=$NewMon
+		Delta=0
+		ConfigMon 0
+	fi
+}
+
+if [ $(pgrep -cx panel) -gt 1 ]; then
+	printf "%s\n" "The panel is already running" >&2
+	exit 1
+fi
+DetectMon 0
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+while true; do
+	DetectMon 1
+	printf "%s\n" "rc" >&2
+	echo "S$(date "+%b %d, %I:%M %p")"
+	echo "L$(panel_layout)"
+	echo "I$(panel_wifi)"
+	echo "C$(panel_charge)"
+	if [[ -e `which ncmpcpp` && -n `ps -e |grep -w mpd` ]];then
+		echo "M$(ncmpcpp --now-playing | sed "s/(.*) //")"
+  	else
+  	  	echo "M"
+  	fi
+	printf "%s\n" "ec" >&2
+  	sleep 0.5;
+done > "$PANEL_FIFO" &
+printf "%s\n" "!!!" >&2
+wait

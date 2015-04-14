@@ -1,0 +1,67 @@
+#!/bin/sh
+
+. panel_colors
+BarFont='-*-lemon-*-*-*-*-*-*-*-*-*-*-*-*'
+BarHeight="17"
+NewMon=0
+LastMon=0
+Delta=0
+
+RestartBar ()
+{
+	killall panel_bar
+	killall cat
+	[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+	mkfifo "$PANEL_FIFO"
+	cat "$PANEL_FIFO" | panel_bar | bar -g 1366x$BarHeight+$Delta -f "$BarFont" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" &
+	BspcConfig
+}
+ConfigMon ()
+{
+	if [[ $1 -eq 1 ]];then
+		disper -e -t left
+	else
+		disper -s
+	fi
+	RestartBar
+}
+DetectMon ()
+{
+	if [[ -n `xrandr -q | grep "CRT1 connected"` ]];then
+		NewMon=1
+	else
+		NewMon=0
+	fi
+	if [[ $NewMon -ne $LastMon && $NewMon -eq 1 ]];then
+		ConfigMon 1
+		LastMon=$NewMon
+	elif [[ $NewMon -ne $LastMon && $NewMon -eq 0 ]];then
+		ConfigMon 0
+		LastMon=$NewMon
+	fi
+}
+BspcConfig ()
+{
+	bspc config -m LVDS top_padding $BarHeight
+	bspc control --subscribe > "$PANEL_FIFO" &
+}
+
+if [ $(pgrep -cx panel) -gt 1 ]; then
+	printf "%s\n" "The panel is already running" >&2
+	exit 1
+fi
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+while true; do
+	DetectMon
+	echo "S$(date "+%b %d, %I:%M %p")"
+	echo "L$(panel_layout)"
+	echo "I$(panel_wifi)"
+	echo "C$(panel_charge)"
+	if [[ -e `which ncmpcpp` && -n `ps -e |grep -w mpd`]];then
+		echo "M$(ncmpcpp --now-playing | sed "s/(.*) //")"
+  	else
+  	  	echo "M"
+  	fi
+  	sleep 0.5;
+done > "$PANEL_FIFO" &
